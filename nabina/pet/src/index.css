@@ -1,0 +1,11 @@
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom CSS here */
+.slick-dots li.slick-active div {
+  background-color: #4a4a4a;
+}
